@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 72, 255);;
+  padding: 15px 30px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+  background-color: rgb(0, 187, 255);
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #0048ff; /* Color al pasar el mouse */
+}
+
+.search-container {
+  display: flex;
+}
+
+.search-input {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.search-button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #005eff; /* Color del botón */
+  color: white;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #005eff; /* Color al pasar el mouse */
+
+}
+
+  footer {
+  background-color: rgb(0, 72, 255);
+  color: white;
+  text-align: center;
+  padding: 0.1rem 0;
+  position: static; /* Para que el footer quede fijo en la parte inferior */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

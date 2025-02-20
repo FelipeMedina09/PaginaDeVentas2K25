@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HP-Desktop</title>
+    <link rel="stylesheet" href="styleproductos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .features, .testimonials {
+            margin-top: 20px;
+        }
+      
+        .btn-comprar {
+            background-color: #28a745; /* Verde */
+            color: white; /* Texto blanco */
+            padding: 10px 20px; /* Espaciado interno */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor al pasar el ratón */
+            font-size: 16px; /* Tamaño de fuente */
+            transition: background-color 0.3s ease; /* Transición suave */
+        }
+        .btn-comprar:hover {
+            background-color: #218838; /* Color más oscuro al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav class="navbar">
+        <img src="multimedia/Bimbo-removebg-preview.png" alt="Logotipo" width="100">
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Pcs.html">PCs</a></li>
+        <li><a href="Laptops.html">Laptops</a></li>
+        <li><a href="Monitores.html">Monitores</a></li>
+        <li><a href="Perifericos.html">Perifericos</a></li>
+    </ul>
+    <div class="search-container">
+        <input type="text" placeholder="Buscar..." class="search-input">
+        <button class="search-button">🔍</button>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="product">
+        <h2>HP EliteDesk 800 G1</h2>
+        <img src="https://images-cdn.ubuy.com.sa/66bfd037a85e8017ae2618b8-restored-hp-elitedesk-800-g2-desktop.jpg" width="500" alt="">
+        <h3>Características:</h3>
+        <ul class="features">
+            <li>Intel Core I5 de 4ta Generacion</li>
+            <li>8GB De ram DDR3 Ampliable a 16GB De ram DDR3 en Dual-Channel</li>
+            <li>Intel HD Graphics 4600</li>
+           <li>Motherboard:737728-001 Hewlett-Packard Motherboard</li> 
+           <li>Fuente de 90 W Generica</li> 
+           <li>500 GB de Almacenamiento HDD</li> 
+        </ul>
+        <H1>Precio:</H1>
+        <h3 style="color:green ;">$150</h3>
+        <h3>Testimonios:</h3>
+        <div class="testimonials">
+            <p>"Este producto cambió mi vida. ¡Lo recomiendo al 100%!" - Juan P.</p>
+            <p>"Excelente calidad y servicio. Estoy muy satisfecho." - María G.</p>
+        </div>
+
+        <button type="submit" class="btn-comprar">Comprar Ahora</button> <!-- Botón de compra -->
+        <form action="#" method="post">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+        </form>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; Todos Los Derechos Reservados Hacia La Compañia Bimbo Technologies</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
