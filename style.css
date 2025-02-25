@@ -70,7 +70,6 @@
 
 /* Hero section (Encabezado) */
 .hero {
-    background-image: url(multimedia/BIMBO.mp4);
     text-align: center;
     padding: 5rem 0;
     margin-top: 60px; /* Ajuste para no quedar debajo de la navbar fija */
